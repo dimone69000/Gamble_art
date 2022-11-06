@@ -1,0 +1,83 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+/* ------------------------BANDEAU DU HAUT----------------------------------- */
+#logo{
+    width: 175px;
+}
+#logo_text{
+    width: 150px;
+    padding-bottom: 25px;
+}
+#menu{
+    display: inline;
+}
+.navBar{
+    list-style: none;
+    display: inline-flex; 
+}
+li{
+    margin: 0 15px 0 0;
+}
+.navBar ul{
+    list-style-type: none;
+}
+.navBar a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    margin: auto;
+
+}
+.navBar a:hover{
+    color: #3A89FF;
+}
+/* ------------------------FIN BANDEAU DU HAUT --------------------------------- */
+/* ----------------DEBUT DU DIAPORAMA----------------------------- */
+.row{
+    margin: 10px 0 0 0;
+}
+.col-4{
+    background-color: blue;
+    padding: 20px 0px;
+}
+.card{
+    width: 400px;
+    height: auto;
+    display: inline-block;
+}
+/* ----------------FIN DU DIAPORAMA -------------------------- */
+
+/* --------------------DEBUT DU FOOTER ------------------------ */
+#menu2{
+    margin-top: 10px;
+    background-image: url("../img/fond_footer.png");
+    width: 100%;
+    height: 90px;
+}
+.navBar2{
+    margin-top: 30px;
+    list-style: none;
+    display: inline-flex;
+}
+li{
+    margin: 0 15px 0 0;
+}
+.navBar2 ul{
+    list-style-type: none;
+}
+.navBar2 a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    margin: auto;
+}
+.navBar2 a:hover{
+    color: #3A89FF;
+}
+/* ----------------------FIN DU FOOTER ------------------------ */
