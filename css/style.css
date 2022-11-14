@@ -1,0 +1,99 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+/* ------------------------BANDEAU DU HAUT----------------------------------- */
+#logo{
+    width: 175px;
+}
+#logo_text{
+    width: 150px;
+    padding-bottom: 25px;
+}
+#menu{
+    display: inline;
+}
+.navBar{
+    list-style: none;
+    display: inline-flex; 
+}
+li{
+    margin: 0 15px 0 0;
+}
+.navBar ul{
+    list-style-type: none;
+}
+.navBar a{
+    text-decoration: none;
+    color: #6d6d6d;
+    font-weight: bold;
+    margin: auto;
+
+}
+.navBar a:hover{
+    color: #000000;
+}
+/* ------------------------FIN BANDEAU DU HAUT --------------------------------- */
+/* -------------------DEBUT DU SLOGGANS ET ACCROCHE---------------------------------- */
+#img_accroche{
+    background-image: url('../img/map-g34efc4d35_1920.png');
+    width: 100%;
+    height: 200px;
+}
+#accroche{
+    width: 100%;
+}
+h1{
+    color: white;
+    font-size: 25px;
+    text-align: center;
+    padding-top: 23px;
+    font-weight: bold;
+}
+/* ------------------FIN DU SLOGGANS ET ACCROCHE --------------------------   */
+/* -----------------DEBUT DU CORPS DE PAGE------------------------------- */
+.row{
+    justify-content: center;
+    margin: auto;
+}
+.cadre_base{
+    -webkit-box-shadow: 5px 5px 15px 5px #3A89FF; 
+    box-shadow: 5px 5px 15px 5px #3A89FF;
+    margin: 40px 20px;
+    width: 450px;
+    height: auto;
+    border-radius: 10px;
+    border: 1px solid #3A89FF;
+}
+/* ------------------FIN DU CORPS DE PAGE ---------------------- */
+/* --------------------DEBUT DU FOOTER ------------------------ */
+#menu2{
+    background-image: url("../img/fond_footer.png");
+    width: 100%;
+    height: 90px;
+}
+.navBar2{
+    margin-top: 30px;
+    list-style: none;
+    display: inline-flex;
+}
+li{
+    margin: 0 15px 0 0;
+}
+.navBar2 ul{
+    list-style-type: none;
+}
+.navBar2 a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    margin: auto;
+}
+.navBar2 a:hover{
+    color: #3A89FF;
+}
+/* ----------------------FIN DU FOOTER ------------------------ */
